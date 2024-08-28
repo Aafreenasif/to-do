@@ -1,0 +1,93 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-image: url('./img/city-landscape-illustration-urban-silhouette-with-skyline-building-and-night-sky-cityscape-silhouette-landscape-for-background-wallpaper-display-or-landing-page-skyline-in-the-midnight-ve.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #A3C7F7; /* Light blue */
+}
+
+#app {
+    background-color: rgba(10, 25, 74, 10); /* Deep blue with opacity */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Aladdin', cursive;
+    color: #A3C7F7; /* Light blue */
+    font-weight: 700;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #4C92F2; /* Medium blue */
+    border-radius: 4px;
+    background-color: #2C3E50; /* Darker blue */
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #3B6EB7; /* Medium blue */
+    color: #A3C7F7; /* Light blue */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #204D87; /* Darker blue */
+    transform: scale(1.05);
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #4C92F2; /* Medium blue */
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-item span {
+    color: #A3C7F7; /* Light blue */
+    font-weight: 500;
+}
+
+.todo-item button {
+    background-color: #3B6EB7; /* Medium blue */
+    color: #A3C7F7;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.todo-item button:hover {
+    background-color: #204D87; /* Darker blue */
+    transform: scale(1.05);
+}
